@@ -1,0 +1,10 @@
+They basically just updated their UI model, I would have liked to see an update to the supplemental specification and the domain model, but if those haven't changed there wouldn't be any real reason to update them. Their wiki looks the same as it did the last time I reviewed their progress.  
+
+I'm actually not seeing a database schema.  Their UI model looks pretty good, except I can't tell what the Timings tab does and the Map tab isn't connected to the rest of the model.  I still think the manual meal counting is cumbersome and won't be used, but if it's going to be implemented I think the content should be centered instead of left-justified.  The domain model looks okay, but there should be a list of allergens each with their own boolean instead of one boolean for any allergen.  Cropping the model so it's easier to read on Github and streamlining the layout would be nice.  I'm noticing a lack of weekly meal plan integration, but the block plan integration looks good except for the renewMealPlan() method.  Personally I often switch meal plans from semester to semester, and having a chooseMealPlan() with the default being the meal plan the user had last semester seems like it would work better.
+
+The server and client have been updated recently.  
+
+I liked their design presentation, but again the fact that you have to manually go in and subtract a meal from your counter every time you eat at the dining hall kind of defeats the purpose of the feature.  I'd say their presentation was in the range of 4th-5th.  
+
+I couldn't get the client to run, it failed to find 'android-24' in the SDK location.  The database was fine.  
+

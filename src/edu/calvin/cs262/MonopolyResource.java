@@ -163,7 +163,7 @@ public class MonopolyResource {
      */
     private static final String DB_URI = "jdbc:postgresql://localhost:5432/monopoly";
     private static final String DB_LOGIN_ID = "postgres";
-    private static final String DB_PASSWORD = "bjarne";
+    private static final String DB_PASSWORD = "postgres";
     private static final String PORT = "8089";
 
     /*
